@@ -1,0 +1,16 @@
+# Dependencies and builds
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets and local data (never commit these)
+.env
+*.db
+backend/data/
+
+# Local tooling
+.claude/
+.DS_Store
+Thumbs.db
